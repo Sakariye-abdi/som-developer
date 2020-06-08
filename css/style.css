@@ -1,0 +1,470 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #765244;
+    --second-color: #cab596;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 90%;
+    margin: auto;
+}
+
+
+.social-icons ul
+{
+    background: #28292b;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+}
+
+.social-icons li a{
+    color: #ccc;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.nav-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.logo img{
+    width: 150px;
+    padding: 10px;
+}
+
+.main
+{
+   
+}
+
+.main ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.main ul li
+{
+    display: inline-block;
+}
+
+.main ul a{
+    color: var(--main-color);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+.btn a
+{
+    background-color: var(--main-color);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+    padding: 4px 20px;
+}
+
+.btn span{
+    background-color: var(--second-color);
+    padding: 5px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.img img
+{
+    width:750px;
+    margin-top: 60px;
+}
+
+.section1-container
+{
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.box
+{
+  
+    margin: 10px 10px;
+    
+   
+}
+
+.taageer
+{
+    flex: 1;
+   
+    position: relative;
+}
+
+.wargayska
+{
+    flex: 2;
+   
+}
+
+.jadwal
+{
+    flex: 1;
+
+}
+
+.box h1
+{
+    background-color: var(--second-color);
+    width: 60%;
+    margin: auto;
+    color: var(--main-color);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    padding: 4px;
+}
+
+.taageer .taageer-image
+{
+    background-image: url(../images/fund.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.taageer-image .transparent
+{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2b2a2a;
+    padding: 5px;
+    opacity: 0.8;
+}
+
+.transparent p{
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.transparent span{
+    color: #000;
+}
+
+.progressing
+{
+    background-color: #ccc;
+    height: 10px;
+}
+
+.progressing .green
+{
+    background-color: #52e5b9;
+    width: 35%;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.text{
+    padding: 6px;
+    
+}
+
+.text p{
+    font-size: 0.8rem;
+   
+}
+
+.taageer-btn
+{
+    background-color: var(--second-color);
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     padding: 5px;
+    text-align: center;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.taageer-btn a{
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 800;
+    font-size: 0.6rem;
+    
+}
+
+.taageer-btn .fa
+{
+    margin-left: 20px;
+}
+
+.wargayska .wargayska-image
+{
+    background-image: url(../images/news3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 317px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.wargayska-image h3
+{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.wargayska-image a
+{
+    background-color: var(--second-color);
+    color: var(--main-color);
+    
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 0.5rem;
+    
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+.wargayska-image .fa{
+     background-color: var(--main-color);
+     width: 20px;
+     padding: 7px;
+     height: 100%;
+}
+
+.wargayska-image .fa-chevron-right
+{
+    color: #fff;
+    text-align: center;
+}
+
+.jadwal h1{
+    background-color: var(--main-color);
+    color: var(--second-color);
+}
+
+.habeen
+{
+    background-color: var(--second-color);
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.habeen p
+{
+    font-size: 0.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--main-color);
+}
+.habeenka-abwaanka{
+   padding: 10px;
+   border: 1px dashed #ccc;
+   margin-top: 10px;
+}
+.habeenka-abwaanka h3
+{
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.arrow-container
+{
+    height: 60px;
+    text-align: center;
+}
+
+.arrow-container .fa
+{
+
+    width: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 2px solid var(--main-color);
+    text-align: center;
+}
+
+.arrow-container .fa-chevron-down
+{
+  color: var(--main-color);
+}
+
+.shuuriye-container
+{
+    background: #000;
+}
+
+.shuuriye-container img
+{
+    width: 100%;
+    height: 100px;
+}
+
+.barnaamijyada-container
+{
+    margin-top: 20px;
+}
+
+.barnaamijyada-container img
+{
+    width: 100%;
+}
+
+.games-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.ciyaar
+{
+    width: 30%;
+    background-image: url(../images/ciyaar2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.ciyaar h2
+{
+    margin-top: 20%;
+    color: #fff;
+}
+
+.habeenka
+{
+    width: 30%;
+    background-image: url(../images/abwaanka.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.habeenka h2
+{
+    margin-top: 20%;
+    color: #fff;
+}
+
+.shaah
+{
+        width: 30%;
+    background-image: url(../images/shaah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.shaah h2
+{
+    margin-top: 20%;
+    color: #fff;
+}
+
+
+
+.footer-section
+{
+    width: 100%;
+}
+
+.footer-container
+{
+    width: 100%;
+    background: #28292b;;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.footer-social ul
+{
+  display: flex;
+  margin: 0 20px;
+  justify-content: flex-end;
+    list-style: none;
+}
+
+.footer-social ul a
+{
+    color: #868686;
+    padding: 0 10px;
+
+}
+
+.footer-logo img
+{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.footer-copywrite p
+{
+    color: #868686;
+    font-weight: normal;
+    font-size: 12px;
+}

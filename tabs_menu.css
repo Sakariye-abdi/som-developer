@@ -1,0 +1,214 @@
+:root{
+    --main-color: #765244;
+    --second-color: #cab596;
+}
+
+.tabs-section
+{
+	display: flex;
+}
+.tabs_menu_container
+{
+  flex: 2;
+
+
+}
+
+.tab_navigation
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tab_navigation li
+{
+	display: inline-block;
+	background: var(--second-color);
+	color: #fff;
+	min-width: 100px;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.tab_navigation .wax
+{
+	background: #9a8905;
+}
+
+.tab_navigation .ujed
+{
+	background: #067d58;
+}
+
+.tab_navigation .shaqo
+{
+	background: #252924;
+}
+
+.tab_navigation li.active,
+.tab_navigation li:hover
+{
+	background: var(--second-color);
+}
+
+
+
+
+.tab_container_area{}
+
+.tab_container
+{
+  width: 90%;
+  background: var(--second-color);
+  padding: 10px;
+  border-radius: 0 5px 5px 5px;
+  margin-top: 2px;
+  display: none;
+}
+
+.form-container
+{
+	flex: 1;
+}
+
+.form
+{
+	background: #c9dae8;
+	margin-top: 30px;
+	text-align: center;
+	padding: 30px;
+}
+
+.input-group
+{
+	margin-top: 10px;
+}
+
+.input-group input
+{
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+}
+
+.dir
+{
+	background: #5c3b03;
+	width: 30%;
+	padding: 5px;
+	margin-top:30px;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+
+section
+{
+	width: 90%;
+	margin: auto;
+}
+
+@media (max-width: 970px){
+
+	.section1-container
+	{
+		display: flex;
+		min-width: 100%;
+	}
+
+	.taageer
+	{
+		min-width: 30%;
+		//margin: auto;
+	}
+
+	.wargayska
+	{
+		min-width: 30%;
+	}
+
+	.jadwal
+	{
+		min-width: 30%;
+	}
+
+	.arrow
+	{
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 750px)
+
+{
+	.section1-container
+	{
+		display: flex;
+		flex-direction: column;
+	}
+    
+    .box
+    {
+    	max-width: 80%;
+        height: 400px;
+    	margin: auto;
+    	margin-top: 10px;
+    }
+
+    .taageer
+    {
+    	min-width: 70%;
+       height: 500px;
+    }
+
+    .wargayska
+
+    {
+    	min-width: 70%;
+    }
+
+    .nav-container
+    {
+    	display: flex;
+    	flex-direction: column;
+    }
+
+    .tabs-section
+    {
+    	display: flex;
+    	flex-direction: column;
+    }
+
+    .main ul li
+    {
+    	display: block;
+    	text-align: center;
+    }
+
+    .btn
+    {
+    	margin-top: 20px;
+    }
+
+    .games-container
+    {
+    	display: flex;
+    	flex-direction: column;
+    }
+
+
+    .games-box
+    {
+    	min-width: 100%;
+    	margin-top: 10px;
+    }
+
+    .footer-container
+    {
+    	display: flex;
+    	flex-direction: column;
+    }
+}
